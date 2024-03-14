@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#desication{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    
+    
+}
+
+.dedication{
+    display: flex;
+    /* border: 2px solid black; */
+    margin-top: 25px;
+    justify-content: center;
+    width: 200px;
+    
+}
+#desication  #catio{
+    height: 300px;
+    width: 250px;
+    border-right: 2px solid black;
+    margin: 25px;
+}
+
+.dedication  #caton{
+    margin-top: 60px;
+    margin-left: 10px;
+    /* border: 2px solid black; */
+}
+
+.dedication div{
+    margin-top: 40px;
+}
+.dedication div img{
+    /* border: 2px solid black; */
+    height: 80px;
+    /* margin-bottom:45px; */
+}
+
+
+.dedication{
+    display: flex;
+    /* border-right: 2px solid black; */
+    margin-top: 25px;
+    justify-content: center;
+    width: 200px;
+    
+}
+.dedication  #caton{
+    margin-top: 60px;
+    margin-left: 10px;
+    /* border: 2px solid black; */
+}
+.dedication div{
+    margin-top: 40px;
+}
+.dedication div img{
+    /* border: 2px solid black; */
+    height: 80px;
+    /* margin-bottom:45px; */
+}
+#dedi{
+    height: 300px;
+    width: 250px;
+    margin-top: 25px;
+    border-right: 2px solid black;
+}

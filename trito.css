@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+html{
+    overflow-x:hidden;
+}
+
+.navbar{
+    background-image: url(https://marketifythemes.net/html/trito/img/hero/1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+}
+#img img{
+    width:115px;
+    margin-left: -90px;
+}
+#mid {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+#mid li {
+    font-size:18px;
+    margin:25px;
+    list-style-type: none;
+    
+}
+#mid li a{
+    text-decoration: none;
+    color: #24315E;
+}
+#last{
+    margin-right: -100px;
+}
+#last button{
+    list-style-type: none;
+    height: 50px;
+    width:165px;
+    background-color: #24315E;
+    color: whitesmoke;
+    font-size: 18px;
+}
+#mid li a:hover{
+    color: orangered;
+}
+#last button:hover{
+      background-color: whitesmoke;
+      color: black;
+}
+
+/*===================== End navbar =====================*/
+/* =====================start Hero section=============== */
+
+.Hero{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(https://marketifythemes.net/html/trito/img/hero/1.jpg);
+    border:1px solid black ;
+    height:80.5vh;
+    width: 100%;
+}
+.info{
+    height: 100%;
+    width:40%;
+    margin-top: 100px;
+    margin-left:10px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+
+
+}
+.photo{
+    height:100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    
+}
+.photo img{
+    height: 470px;
+    margin: 15px 60px 0px 20px;
+    /* border:2px solid black; */
+}
+ #red{
+    color: orangered;
+ }
+#hi p{
+    height: 25px;
+    font-size: 25px;
+    color: #24315E;
+}
+#name p{
+    font-size: 60px;
+    margin-top: 8px;
+    color: #24315E;
+    
+}
+#web p{
+    font-size: 25px;
+    margin-top: 8px;
+    color: #24315E;
+}
+#btn button{
+    height:45px;
+    width: 140px;
+    font-size: 20px ;
+    color: #24315E;
+    border: 2px solid black;
+    margin-top: 35px;
+}
+#btn button:hover{
+    color: aliceblue;
+    background-color: #24315E;
+}
+#btn a{
+    margin-left:25px;
+    color: #24315E;
+}
+#im p{
+    margin-top:100px;
+    font-size:20px;
+}
+#ram {
+    display: flex;
+    flex-direction: column;
+}
+#ram a{
+    scrollbar-shadow-color: aliceblue;
+}
+#ram i{
+    font-size: 35px;
+    padding: 5px;
+    color:#24315E;
+}
+
+
+/* =================End Hero section-============================== */
+
+/* ================start client section============================== */
+#client{
+    background-color: rgb(43,43,74);
+    width: 100%;
+    color: aliceblue;
+    font-size: 25px;
+}
+client tr td{
+    color: whitesmoke;
+    font-size: 24px;
+}
+    
+
+/* ====================end client section========================= */
+/* ====================start dedication section ================== */
+#desication{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    
+    
+}
+
+.dedication{
+    display: flex;
+    /* border: 2px solid black; */
+    margin-top: 25px;
+    justify-content: center;
+    width: 200px;
+    
+}
+#desication  #catio{
+    height: 300px;
+    width: 250px;
+    border-right: 2px solid black;
+    margin: 25px;
+}
+
+.dedication  #caton{
+    margin-top: 60px;
+    margin-left: 10px;
+    /* border: 2px solid black; */
+}
+
+.dedication div{
+    margin-top: 40px;
+}
+.dedication div img{
+    /* border: 2px solid black; */
+    height: 80px;
+    /* margin-bottom:45px; */
+}
+
+
+.dedication{
+    display: flex;
+    /* border-right: 2px solid black; */
+    margin-top: 25px;
+    justify-content: center;
+    width: 200px;
+    
+}
+.dedication  #caton{
+    margin-top: 60px;
+    margin-left: 10px;
+    /* border: 2px solid black; */
+}
+.dedication div{
+    margin-top: 40px;
+}
+.dedication div img{
+    /* border: 2px solid black; */
+    height: 80px;
+    /* margin-bottom:45px; */
+}
+#dedi{
+    height: 300px;
+    width: 250px;
+    margin-top: 25px;
+    border-right: 2px solid black;
+}
+
+/* ================skills========== */
+#skills{
+    font-size: 24px;
+    padding: 5px;
+}
+#every p{
+    margin-left:72px;
+    font-size: 50px;
+}
+
+#raaaj{
+    margin-top: 60px;
+}
+
+#lorem{
+    margin-top: 10px;
+    margin-left: 72px;
+}
+
+#skillsdiv2{
+    margin-top: 40px;
+    background-image: url('https://itemsstore.net/html/trito/img/skills/1.jpg');
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+}
+#skillsdiv2 div{
+    border: 2px solid rgb(43, 43, 74);
+    width: 60px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+}
+#mainskills{
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.skill1 div{
+    margin-bottom:20px;
+       display: flex;
+       justify-content: space-evenly;
+}
+
+#skill2 #onetwo{
+         font-size:68px;
+         margin-top: 25px;
+         font-weight: bold;
+         text-decoration: underline;
+         
+}
+#skill2 div{
+    font-size: 25px;
+    margin-top: 35px;
+    padding: 12px;
+}
+
+#skill3 #fourth{
+    font-size:68px;
+    margin-top: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+#skill3 div{
+    font-size: 25px;
+    margin-top: 35px;
+    padding: 12px;
+}
+#skill4 #hundred{
+    font-size:68px;
+    margin-top: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+#skill4 div{
+    font-size: 25px;
+    margin-top: 35px;
+    padding: 12px;
+}
+ 
+/* =====================experience============================== */
+ #experience{
+    height: 98vh;
+    background-image: url('https://itemsstore.net/html/trito/img/about/background.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+ }
+
+ #experi{
+    /* margin-top: 50px; */
+    height: 80vh;
+    width: 80vh;
+    /* border:2px solid black ; */
+    /* background-image : url('https://itemsstore.net/html/trito/img/about/1.png'); */
+    
+
+ }
+ #experi img{
+    width: 400px;
+    height: 480px;
+    margin-left: 45px;
+    margin-bottom:12px;
+ }
+ #about1{
+    font-weight: bold;
+    font-size: 20px;
+    color: tomato;
+ }
+ #experi1{
+    height: 80vh;
+    width:100vh;
+    /* border:2px solid black  */
+}
+#experi1 div{
+    margin-left: 30px;
+    padding: 5px;
+}
+
+ #experi1  #about1{
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 20px;
+ }
+ #develop div{
+    font-size: 50px;
+    /* margin-top:10px; */
+    /* margin-left:30px; */
+ }
+ #ex div{
+    margin-top: 15px;
+ }
+ #hire button{
+    background-color:#24315E ;
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    margin-left: 35px;
+    color: azure;
+    margin-top: 25px;
+ }
+ #hire button:hover{
+    background-color: azure;
+    color: black;
+ }
+    
+ /* ===========image */
+
+ #five{
+    display: grid;
+    grid-template-columns: auto auto;
+ }
+ #five  div{
+    width: 98%;
+    overflow: hidden;
+    border: 2px solid black;
+ }
+ #five div img{
+    width: 100%;
+    height: 100%;
+ }
+ #five div img:hover {
+    scale: 1.3;
+    transition: 1s;
+ }
+ /* ===============three ===============*/
+ #three{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+ }
+ #three  div{
+    width: 98%;
+    overflow: hidden;
+    border: 2px solid black;
+ }
+ #three div img{
+    width: 100%;
+    
+ }
+ #three div img:hover {
+    scale: 1.3;
+    transition: 1s;
+ }
+
+
+ /* ========Experience ====== */
+
+ #experience1 {
+    height: 90px;
+    width:250px;
+    border: 2px solid black;
+    display: flex;
+    background-color: white;
+    position: absolute;
+    top: 2200px;
+    margin-left: 60px;
+    /* padding: 8px; */
+ }
+ #experience1 #twelve {
+   font-size: 50px;
+   font-weight: bold;
+   color: red;
+   margin-top: 13px;
+   margin-left: 10px;
+   
+ }
+ #experience1 #yre{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 18px;
+    margin-top: 13px;
+ }
+ /* ============================================== */
+ /* ===========contact================ */
+ #contact{
+    background-image:url(https://itemsstore.net/html/trito/img/contact/background.jpg);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ #input_type{
+    /* border: 2px solid black; */
+    height: 520px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 25px;
+ }
+ #_cont{
+    display: flex;
+    font-size: 20px;
+    margin-left: 50px;
+    
+ }
+ #_cont #con{
+    font-size: 25px;
+    color:tomato;
+    
+ }
+ #calls{
+    /* border: 2px solid black; */
+    height: 200px;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 45px;
+    color: aliceblue;
+ }
+ #calls a{
+    color: white;
+    padding: 15px;
+    display:block;
+ }
+ #calls a:hover{
+    text-decoration: none;
+ }
+
+#drop{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 25px;
+    color: white;
+}
+
+#form_input{
+    height: 540px;
+    width: 550px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 125px;
+    
+}
+#form_form{
+    height: 450px;
+    width: 500px;
+    /* border: 2px solid black; */
+    margin: 85px 65px 0px 45px;
+    
+}
+#form_form input{
+     height:70px;
+     width: 450px;
+     border-radius: 5px;
+   
+}
+#form_form textarea{
+    width: 450px;
+    border-radius: 5px;
+    
+}
+#form_form button{
+     height: 50px;
+     width: 450px;
+     font-size: 20px;
+     background-color: blue;
+     color: white;
+     border-radius: 5px;
+}
+#form_form button:hover{
+    background-color: white;
+    color: black;
+}
